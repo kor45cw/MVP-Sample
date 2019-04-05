@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		BDBEA203AD7F0777E5B214C7 /* Pods_MVP_SampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E4FFB1650832E01921F2D5 /* Pods_MVP_SampleTests.framework */; };
 		CE5AF3F0225624FC0009CB02 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5AF3EF225624FC0009CB02 /* MainPresenter.swift */; };
+		CECA229E22575B9800F12DE5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA229D22575B9800F12DE5 /* DetailViewController.swift */; };
+		CECA22A022575BB300F12DE5 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA229F22575BB300F12DE5 /* DetailPresenter.swift */; };
+		CECA22A222575BBC00F12DE5 /* DetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA22A122575BBC00F12DE5 /* DetailService.swift */; };
 		CECC8BA52252E37A002A6810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC8BA42252E37A002A6810 /* AppDelegate.swift */; };
 		CECC8BA72252E37A002A6810 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC8BA62252E37A002A6810 /* MainViewController.swift */; };
 		CECC8BAA2252E37A002A6810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECC8BA82252E37A002A6810 /* Main.storyboard */; };
@@ -36,6 +39,9 @@
 		9E7BAB142F49A5095091B666 /* Pods-MVP-SampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVP-SampleTests.debug.xcconfig"; path = "Target Support Files/Pods-MVP-SampleTests/Pods-MVP-SampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C09268BA2B3F3DB068496280 /* Pods-MVP-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVP-Sample.release.xcconfig"; path = "Target Support Files/Pods-MVP-Sample/Pods-MVP-Sample.release.xcconfig"; sourceTree = "<group>"; };
 		CE5AF3EF225624FC0009CB02 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		CECA229D22575B9800F12DE5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CECA229F22575BB300F12DE5 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		CECA22A122575BBC00F12DE5 /* DetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailService.swift; sourceTree = "<group>"; };
 		CECC8BA12252E37A002A6810 /* MVP-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVP-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECC8BA42252E37A002A6810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CECC8BA62252E37A002A6810 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +100,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CECA229C22575B8600F12DE5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CECC8BA62252E37A002A6810 /* MainViewController.swift */,
+				CE5AF3EF225624FC0009CB02 /* MainPresenter.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CECA22A322575BC200F12DE5 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				CECA229D22575B9800F12DE5 /* DetailViewController.swift */,
+				CECA229F22575BB300F12DE5 /* DetailPresenter.swift */,
+				CECA22A122575BBC00F12DE5 /* DetailService.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		CECC8B982252E37A002A6810 = {
 			isa = PBXGroup;
 			children = (
@@ -118,8 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				CECC8BA42252E37A002A6810 /* AppDelegate.swift */,
-				CECC8BA62252E37A002A6810 /* MainViewController.swift */,
-				CE5AF3EF225624FC0009CB02 /* MainPresenter.swift */,
+				CECA229C22575B8600F12DE5 /* Main */,
+				CECA22A322575BC200F12DE5 /* Detail */,
 				CECC8BA82252E37A002A6810 /* Main.storyboard */,
 				CECC8BAB2252E37C002A6810 /* Assets.xcassets */,
 				CECC8BAD2252E37C002A6810 /* LaunchScreen.storyboard */,
@@ -316,9 +341,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECA22A222575BBC00F12DE5 /* DetailService.swift in Sources */,
 				CECC8BA72252E37A002A6810 /* MainViewController.swift in Sources */,
 				CE5AF3F0225624FC0009CB02 /* MainPresenter.swift in Sources */,
 				CECC8BA52252E37A002A6810 /* AppDelegate.swift in Sources */,
+				CECA22A022575BB300F12DE5 /* DetailPresenter.swift in Sources */,
+				CECA229E22575B9800F12DE5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

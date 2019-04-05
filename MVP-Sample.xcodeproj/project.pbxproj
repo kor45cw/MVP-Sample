@@ -12,6 +12,7 @@
 		CECA229E22575B9800F12DE5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA229D22575B9800F12DE5 /* DetailViewController.swift */; };
 		CECA22A022575BB300F12DE5 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA229F22575BB300F12DE5 /* DetailPresenter.swift */; };
 		CECA22A222575BBC00F12DE5 /* DetailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA22A122575BBC00F12DE5 /* DetailService.swift */; };
+		CECA22A52257621100F12DE5 /* MVP_DetailTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA22A42257621100F12DE5 /* MVP_DetailTest.swift */; };
 		CECC8BA52252E37A002A6810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC8BA42252E37A002A6810 /* AppDelegate.swift */; };
 		CECC8BA72252E37A002A6810 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC8BA62252E37A002A6810 /* MainViewController.swift */; };
 		CECC8BAA2252E37A002A6810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECC8BA82252E37A002A6810 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		CECA229D22575B9800F12DE5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CECA229F22575BB300F12DE5 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
 		CECA22A122575BBC00F12DE5 /* DetailService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailService.swift; sourceTree = "<group>"; };
+		CECA22A42257621100F12DE5 /* MVP_DetailTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_DetailTest.swift; sourceTree = "<group>"; };
 		CECC8BA12252E37A002A6810 /* MVP-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVP-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECC8BA42252E37A002A6810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CECC8BA62252E37A002A6810 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				CECC8BB92252E37C002A6810 /* MVP_SampleTests.swift */,
+				CECA22A42257621100F12DE5 /* MVP_DetailTest.swift */,
 				CECC8BBB2252E37C002A6810 /* Info.plist */,
 			);
 			path = "MVP-SampleTests";
@@ -354,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECA22A52257621100F12DE5 /* MVP_DetailTest.swift in Sources */,
 				CECC8BBA2252E37C002A6810 /* MVP_SampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

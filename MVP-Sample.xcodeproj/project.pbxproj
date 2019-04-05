@@ -15,20 +15,11 @@
 		CECC8BAC2252E37C002A6810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECC8BAB2252E37C002A6810 /* Assets.xcassets */; };
 		CECC8BAF2252E37C002A6810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECC8BAD2252E37C002A6810 /* LaunchScreen.storyboard */; };
 		CECC8BBA2252E37C002A6810 /* MVP_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC8BB92252E37C002A6810 /* MVP_SampleTests.swift */; };
-		CECC8BC52252E37C002A6810 /* MVP_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC8BC42252E37C002A6810 /* MVP_SampleUITests.swift */; };
 		D52B0914BA5F4DD99465B497 /* Pods_MVP_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A241E04F37F01C7919F3530 /* Pods_MVP_Sample.framework */; };
-		E7DA57F524C80200D62398EF /* Pods_MVP_SampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FBE71EE9FEF7C443FEA05E /* Pods_MVP_SampleUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		CECC8BB62252E37C002A6810 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CECC8B992252E37A002A6810 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CECC8BA02252E37A002A6810;
-			remoteInfo = "MVP-Sample";
-		};
-		CECC8BC12252E37C002A6810 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CECC8B992252E37A002A6810 /* Project object */;
 			proxyType = 1;
@@ -55,9 +46,6 @@
 		CECC8BB52252E37C002A6810 /* MVP-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVP-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECC8BB92252E37C002A6810 /* MVP_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_SampleTests.swift; sourceTree = "<group>"; };
 		CECC8BBB2252E37C002A6810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CECC8BC02252E37C002A6810 /* MVP-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVP-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CECC8BC42252E37C002A6810 /* MVP_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_SampleUITests.swift; sourceTree = "<group>"; };
-		CECC8BC62252E37C002A6810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2E4FFB1650832E01921F2D5 /* Pods_MVP_SampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVP_SampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6946DCEC0180225AC07742A /* Pods-MVP-SampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVP-SampleUITests.release.xcconfig"; path = "Target Support Files/Pods-MVP-SampleUITests/Pods-MVP-SampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F3F6B4535E8E9349064BFAA8 /* Pods-MVP-SampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVP-SampleTests.release.xcconfig"; path = "Target Support Files/Pods-MVP-SampleTests/Pods-MVP-SampleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,14 +65,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDBEA203AD7F0777E5B214C7 /* Pods_MVP_SampleTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CECC8BBD2252E37C002A6810 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E7DA57F524C80200D62398EF /* Pods_MVP_SampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +99,6 @@
 			children = (
 				CECC8BA32252E37A002A6810 /* MVP-Sample */,
 				CECC8BB82252E37C002A6810 /* MVP-SampleTests */,
-				CECC8BC32252E37C002A6810 /* MVP-SampleUITests */,
 				CECC8BA22252E37A002A6810 /* Products */,
 				1AE3D1CE6884235D7BCE9E8F /* Pods */,
 				1EB324B2C747931A37ECF4B2 /* Frameworks */,
@@ -131,7 +110,6 @@
 			children = (
 				CECC8BA12252E37A002A6810 /* MVP-Sample.app */,
 				CECC8BB52252E37C002A6810 /* MVP-SampleTests.xctest */,
-				CECC8BC02252E37C002A6810 /* MVP-SampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,15 +135,6 @@
 				CECC8BBB2252E37C002A6810 /* Info.plist */,
 			);
 			path = "MVP-SampleTests";
-			sourceTree = "<group>";
-		};
-		CECC8BC32252E37C002A6810 /* MVP-SampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CECC8BC42252E37C002A6810 /* MVP_SampleUITests.swift */,
-				CECC8BC62252E37C002A6810 /* Info.plist */,
-			);
-			path = "MVP-SampleUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,25 +178,6 @@
 			productReference = CECC8BB52252E37C002A6810 /* MVP-SampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CECC8BBF2252E37C002A6810 /* MVP-SampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CECC8BCF2252E37C002A6810 /* Build configuration list for PBXNativeTarget "MVP-SampleUITests" */;
-			buildPhases = (
-				00A059AB8AFECAE3AF32724D /* [CP] Check Pods Manifest.lock */,
-				CECC8BBC2252E37C002A6810 /* Sources */,
-				CECC8BBD2252E37C002A6810 /* Frameworks */,
-				CECC8BBE2252E37C002A6810 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CECC8BC22252E37C002A6810 /* PBXTargetDependency */,
-			);
-			name = "MVP-SampleUITests";
-			productName = "MVP-SampleUITests";
-			productReference = CECC8BC02252E37C002A6810 /* MVP-SampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -242,10 +192,6 @@
 						CreatedOnToolsVersion = 10.2;
 					};
 					CECC8BB42252E37C002A6810 = {
-						CreatedOnToolsVersion = 10.2;
-						TestTargetID = CECC8BA02252E37A002A6810;
-					};
-					CECC8BBF2252E37C002A6810 = {
 						CreatedOnToolsVersion = 10.2;
 						TestTargetID = CECC8BA02252E37A002A6810;
 					};
@@ -266,7 +212,6 @@
 			targets = (
 				CECC8BA02252E37A002A6810 /* MVP-Sample */,
 				CECC8BB42252E37C002A6810 /* MVP-SampleTests */,
-				CECC8BBF2252E37C002A6810 /* MVP-SampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -289,38 +234,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CECC8BBE2252E37C002A6810 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00A059AB8AFECAE3AF32724D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MVP-SampleUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		10A071D497455401CF46632E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -414,14 +330,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CECC8BBC2252E37C002A6810 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CECC8BC52252E37C002A6810 /* MVP_SampleUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -429,11 +337,6 @@
 			isa = PBXTargetDependency;
 			target = CECC8BA02252E37A002A6810 /* MVP-Sample */;
 			targetProxy = CECC8BB62252E37C002A6810 /* PBXContainerItemProxy */;
-		};
-		CECC8BC22252E37C002A6810 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CECC8BA02252E37A002A6810 /* MVP-Sample */;
-			targetProxy = CECC8BC12252E37C002A6810 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -508,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -563,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -655,48 +558,6 @@
 			};
 			name = Release;
 		};
-		CECC8BD02252E37C002A6810 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 942CBC72B2A0F560001E36CD /* Pods-MVP-SampleUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y43FZEBEGM;
-				INFOPLIST_FILE = "MVP-SampleUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "kor45cw.MVP-SampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "MVP-Sample";
-			};
-			name = Debug;
-		};
-		CECC8BD12252E37C002A6810 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6946DCEC0180225AC07742A /* Pods-MVP-SampleUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y43FZEBEGM;
-				INFOPLIST_FILE = "MVP-SampleUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "kor45cw.MVP-SampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "MVP-Sample";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -723,15 +584,6 @@
 			buildConfigurations = (
 				CECC8BCD2252E37C002A6810 /* Debug */,
 				CECC8BCE2252E37C002A6810 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CECC8BCF2252E37C002A6810 /* Build configuration list for PBXNativeTarget "MVP-SampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CECC8BD02252E37C002A6810 /* Debug */,
-				CECC8BD12252E37C002A6810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

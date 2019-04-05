@@ -16,9 +16,4 @@ target 'MVP-Sample' do
     # Pods for testing
   end
 
-  target 'MVP-SampleUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
 end

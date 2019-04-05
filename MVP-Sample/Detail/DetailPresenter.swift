@@ -7,3 +7,23 @@
 //
 
 import Foundation
+
+class DetailPresenter {
+    private weak var viewDelegate: DetailViewDelegate?
+
+    func attachView(view: DetailViewDelegate) {
+        self.viewDelegate = view
+    }
+    
+    func viewDidLoad() {
+        DetailService.getItems { [weak self] result in
+            switch result {
+            case .success(let value):
+                self?.viewDelegate?.loadFinished(datas: value)
+            case .failure(let error):
+                print(error.localizedDescription)
+                self?.viewDelegate?.loadFailed()
+            }
+        }
+    }
+}
